@@ -1,19 +1,31 @@
-# MoneyPrinter 💸
+<div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><h1 tabindex="-1" dir="auto"><a id="user-content-moneyprinter-" class="anchor" aria-hidden="true" tabindex="-1" href="#moneyprinter-"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">印钞机💸</font></font></h1>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">只需提供要讨论的视频主题，即可在本地自动创建 YouTube Shorts。</font></font></p>
+<blockquote>
+<p dir="auto"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">重要</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请确保在打开自己的问题之前先查看现有/已关闭的问题。</font><font style="vertical-align: inherit;">如果这只是一个问题，请加入我们的</font></font><a href="https://dsc.gg/fuji-community" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不和谐</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并在那里提问。</font></font></p>
+</blockquote>
+<blockquote>
+<p dir="auto"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🎥在</font></font></strong><font style="vertical-align: inherit;"></font><a href="https://youtu.be/mkZsaDA2JnA?si=pNne3MnluRVkWQbE" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">YouTube</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">上观看视频</font><font style="vertical-align: inherit;">。</font></font></p>
+</blockquote>
+<h2 tabindex="-1" dir="auto"><a id="user-content-installation-" class="anchor" aria-hidden="true" tabindex="-1" href="#installation-"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安装📥</font></font></h2>
+<p dir="auto"><code>MoneyPrinter</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">需要 Python 3.11 才能有效运行。</font><font style="vertical-align: inherit;">如果您没有安装Python，可以从</font></font><a href="https://www.python.org/downloads/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这里</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">下载。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Python安装完成后，您可以</font></font><code>MoneyPrinter</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">按照以下步骤进行安装：</font></font></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>git clone https://github.com/FujiwaraChoki/MoneyPrinter.git
+<span class="pl-c1">cd</span> MoneyPrinter
 
-Automate the creation of YouTube Shorts locally, simply by providing a video topic to talk about.
+<span class="pl-c"><span class="pl-c">#</span> Install requirements</span>
+pip install -r requirements.txt
 
-> **Important** Please make sure you look through existing/closed issues before opening your own. If it's just a question, please join our [discord](https://dsc.gg/fuji-community) and ask there.
+<span class="pl-c"><span class="pl-c">#</span> Copy .env.example and fill out values</span>
+cp .env.example .env
 
-> **🎥** Watch the video on [YouTube](https://youtu.be/mkZsaDA2JnA?si=pNne3MnluRVkWQbE).
+<span class="pl-c"><span class="pl-c">#</span> Run the backend server</span>
+<span class="pl-c1">cd</span> Backend
+python main.py
 
-## Installation 📥
-
-`MoneyPrinter` requires Python 3.11 to run effectively. If you don't have Python installed, you can download it from [here](https://www.python.org/downloads/).
-
-After you finished installing Python, you can install `MoneyPrinter` by following the steps below:
-
-```bash
-git clone https://github.com/FujiwaraChoki/MoneyPrinter.git
+<span class="pl-c"><span class="pl-c">#</span> Run the frontend server</span>
+<span class="pl-c1">cd</span> ../Frontend
+python -m http.server 3000</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="git clone https://github.com/FujiwaraChoki/MoneyPrinter.git
 cd MoneyPrinter
 
 # Install requirements
@@ -28,100 +40,98 @@ python main.py
 
 # Run the frontend server
 cd ../Frontend
-python -m http.server 3000
-```
-
-See [`.env.example`](.env.example) for the required environment variables.
-
-If you need help, open [EnvironmentVariables.md](EnvironmentVariables.md) for more information.
-
-## Usage 🛠️
-
-1. Copy the `.env.example` file to `.env` and fill in the required values
-1. Open `http://localhost:3000` in your browser
-1. Enter a topic to talk about
-1. Click on the "Generate" button
-1. Wait for the video to be generated
-1. The video's location is `MoneyPrinter/output.mp4`
-
-## Music 🎵
-
-To use your own music, compress all your MP3 Files into a ZIP file and upload it somewhere. Provide the link to the ZIP file in the Frontend.
-
-It is recommended to use Services such as [Filebin](https://filebin.net) to upload your ZIP file. If you decide to use Filebin, provide the Frontend with the absolute path to the ZIP file by using More -> Download File, e.g. (use this [Popular TT songs ZIP](https://filebin.net/klylrens0uk2pnrg/drive-download-20240209T180019Z-001.zip), not this [Popular TT songs](https://filebin.net/2avx134kdibc4c3q))
-
-You can also just move your MP3 files into the `Songs` folder. 
-
-## Fonts 🅰
-
-Add your fonts to the `fonts/` folder, and load them by specifying the font name on line `124` in `Backend/video.py`.
-
-## Automatic YouTube Uploading 🎥
-
-MoneyPrinter now includes functionality to automatically upload generated videos to YouTube.
-
-To use this feature, you need to:
-
-1. Create a project inside your Google Cloud Platform -> [GCP](https://console.cloud.google.com/).
-1. Obtain `client_secret.json` from the project and add it to the Backend/ directory.
-1. Enable the YouTube v3 API in your project -> [GCP-API-Library](https://console.cloud.google.com/apis/library/youtube.googleapis.com)
-1. Create an `OAuth consent screen` and add yourself (the account of your YouTube channel) to the testers.
-1. Enable the following scopes in the `OAuth consent screen` for your project:
-
-```
-'https://www.googleapis.com/auth/youtube'
+python -m http.server 3000" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请</font></font><a href="/FujiwaraChoki/MoneyPrinter/blob/main/.env.example"><code>.env.example</code></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">参阅 所需的环境变量。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您需要帮助，请打开</font></font><a href="/FujiwaraChoki/MoneyPrinter/blob/main/EnvironmentVariables.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">EnvironmentVariables.md</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以获取更多信息。</font></font></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-usage-️" class="anchor" aria-hidden="true" tabindex="-1" href="#usage-️"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用法🛠️</font></font></h2>
+<ol dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将文件复制</font></font><code>.env.example</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">到</font></font><code>.env</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并填写所需的值</font></font></li>
+<li><font style="vertical-align: inherit;"></font><code>http://localhost:3000</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在浏览器中</font><font style="vertical-align: inherit;">打开</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">输入要讨论的主题</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">单击“生成”按钮</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">等待视频生成</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">视频的位置是</font></font><code>MoneyPrinter/output.mp4</code></li>
+</ol>
+<h2 tabindex="-1" dir="auto"><a id="user-content-music-" class="anchor" aria-hidden="true" tabindex="-1" href="#music-"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">音乐🎵</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">要使用您自己的音乐，请将所有 MP3 文件压缩为 ZIP 文件并将其上传到某个位置。</font><font style="vertical-align: inherit;">在前端提供 ZIP 文件的链接。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">建议使用</font></font><a href="https://filebin.net" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Filebin</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">等服务来上传 ZIP 文件。</font><font style="vertical-align: inherit;">如果您决定使用 Filebin，请使用“更多”-&gt;“下载文件”向前端提供 ZIP 文件的绝对路径，例如（使用此</font></font><a href="https://filebin.net/klylrens0uk2pnrg/drive-download-20240209T180019Z-001.zip" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">流行 TT 歌曲 ZIP</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，而不是此</font></font><a href="https://filebin.net/2avx134kdibc4c3q" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">流行 TT 歌曲</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您也可以将 MP3 文件移至该</font></font><code>Songs</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文件夹中。</font></font></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-fonts-🅰" class="anchor" aria-hidden="true" tabindex="-1" href="#fonts-🅰"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">字体🅰</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将您的字体添加到文件夹中，并通过在 .txt</font><font style="vertical-align: inherit;">文件中</font></font><code>fonts/</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在线指定字体名称来加载它们</font><font style="vertical-align: inherit;">。</font></font><code>124</code><font style="vertical-align: inherit;"></font><code>Backend/video.py</code><font style="vertical-align: inherit;"></font></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-automatic-youtube-uploading-" class="anchor" aria-hidden="true" tabindex="-1" href="#automatic-youtube-uploading-"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">自动 YouTube 上传 🎥</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">MoneyPrinter 现在包含自动将生成的视频上传到 YouTube 的功能。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">要使用此功能，您需要：</font></font></p>
+<ol dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在 Google Cloud Platform -&gt; </font></font><a href="https://console.cloud.google.com/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">GCP</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">中创建一个项目。</font></font></li>
+<li><font style="vertical-align: inherit;"></font><code>client_secret.json</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">从项目中</font><font style="vertical-align: inherit;">获取并添加到Backend/目录下。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在您的项目中启用 YouTube v3 API -&gt; </font></font><a href="https://console.cloud.google.com/apis/library/youtube.googleapis.com" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">GCP-API-Library</font></font></a></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">创建一个</font></font><code>OAuth consent screen</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并将您自己（您的 YouTube 频道的帐户）添加到测试人员中。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为您的项目启用以下范围</font></font><code>OAuth consent screen</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：</font></font></li>
+</ol>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto"><pre class="notranslate"><code>'https://www.googleapis.com/auth/youtube'
 'https://www.googleapis.com/auth/youtube.upload'
 'https://www.googleapis.com/auth/youtubepartner'
-```
-
-After this, you can generate the videos and you will be prompted to authenticate yourself.
-
-The authentication process creates and stores a `main.py-oauth2.json` file inside the Backend/ directory. Keep this file to maintain authentication, or delete it to re-authenticate (for example, with a different account).
-
-Videos are uploaded as private by default. For a completely automated workflow, change the privacyStatus in main.py to your desired setting ("public", "private", or "unlisted").
-
-For videos that have been locked as private due to upload via an unverified API service, you will not be able to appeal. You’ll need to re-upload the video via a verified API service or via the YouTube app/site. The unverified API service can also apply for an API audit. So make sure to verify your API, see [OAuth App Verification Help Center](https://support.google.com/cloud/answer/13463073) for more information.
-
-## FAQ 🤔
-
-### How do I get the TikTok session ID?
-
-You can obtain your TikTok session ID by logging into TikTok in your browser and copying the value of the `sessionid` cookie.
-
-### My ImageMagick binary is not being detected
-
-Make sure you set your path to the ImageMagick binary correctly in the `.env` file, it should look something like this:
-
-```env
-IMAGEMAGICK_BINARY="C:\\Program Files\\ImageMagick-7.1.0-Q16\\magick.exe"
-```
-
-Don't forget to use double backslashes (`\\`) in the path, instead of one.
-
-### I can't install `playsound`: Wheel failed to build
-
-If you're having trouble installing `playsound`, you can try installing it using the following command:
-
-```bash
-pip install -U wheel
-pip install -U playsound
-```
-
-If you were not able to find your solution, please ask in the discord or create a new issue, so that the community can help you.
-
-## Donate 🎁
-
-If you like and enjoy `MoneyPrinter`, and would like to donate, you can do that by clicking on the button on the right hand side of the repository. ❤️
-You will have your name (and/or logo) added to this repository as a supporter as a sign of appreciation.
-
-## Contributing 🤝
-
-Pull Requests will not be accepted for the time-being.
-
-## Star History 🌟
-
-[![Star History Chart](https://api.star-history.com/svg?repos=FujiwaraChoki/MoneyPrinter&type=Date)](https://star-history.com/#FujiwaraChoki/MoneyPrinter&Date)
-
-## License 📝
-
-See [`LICENSE`](LICENSE) file for more information.
+</code></pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="'https://www.googleapis.com/auth/youtube'
+'https://www.googleapis.com/auth/youtube.upload'
+'https://www.googleapis.com/auth/youtubepartner'" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">之后，您可以生成视频，系统将提示您验证自己的身份。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">身份验证过程会</font></font><code>main.py-oauth2.json</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在 Backend/ 目录中创建并存储一个文件。</font><font style="vertical-align: inherit;">保留此文件以维持身份验证，或删除它以重新进行身份验证（例如，使用不同的帐户）。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">默认情况下，视频以私有方式上传。</font><font style="vertical-align: inherit;">对于完全自动化的工作流程，请将 main.py 中的 PrivacyStatus 更改为您所需的设置（“公开”、“私有”或“不公开”）。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对于因通过未经验证的 API 服务上传而被锁定为私有的视频，您将无法申诉。</font><font style="vertical-align: inherit;">您需要通过经过验证的 API 服务或 YouTube 应用/网站重新上传视频。</font><font style="vertical-align: inherit;">未经验证的API服务也可以申请API审核。</font><font style="vertical-align: inherit;">因此，请务必验证您的 API，请参阅</font></font><a href="https://support.google.com/cloud/answer/13463073" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">OAuth 应用程序验证帮助中心</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">了解更多信息。</font></font></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-faq-" class="anchor" aria-hidden="true" tabindex="-1" href="#faq-"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">常见问题解答🤔</font></font></h2>
+<h3 tabindex="-1" dir="auto"><a id="user-content-how-do-i-get-the-tiktok-session-id" class="anchor" aria-hidden="true" tabindex="-1" href="#how-do-i-get-the-tiktok-session-id"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何获取 TikTok 会话 ID？</font></font></h3>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以通过在浏览器中登录 TikTok 并复制 cookie 的值来获取您的 TikTok 会话 ID </font></font><code>sessionid</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
+<h3 tabindex="-1" dir="auto"><a id="user-content-my-imagemagick-binary-is-not-being-detected" class="anchor" aria-hidden="true" tabindex="-1" href="#my-imagemagick-binary-is-not-being-detected"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">未检测到我的 ImageMagick 二进制文件</font></font></h3>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">确保在</font></font><code>.env</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文件中正确设置 ImageMagick 二进制文件的路径，它应该如下所示：</font></font></p>
+<div class="highlight highlight-source-dotenv notranslate position-relative overflow-auto" dir="auto"><pre><span class="pl-v">IMAGEMAGICK_BINARY</span><span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">"</span>C:\\Program Files\\ImageMagick-7.1.0-Q16\\magick.exe<span class="pl-pds">"</span></span></pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="IMAGEMAGICK_BINARY=&quot;C:\\Program Files\\ImageMagick-7.1.0-Q16\\magick.exe&quot;" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不要忘记</font></font><code>\\</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在路径中使用双反斜杠 ( )，而不是一个。</font></font></p>
+<h3 tabindex="-1" dir="auto"><a id="user-content-i-cant-install-playsound-wheel-failed-to-build" class="anchor" aria-hidden="true" tabindex="-1" href="#i-cant-install-playsound-wheel-failed-to-build"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我无法安装</font></font><code>playsound</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：Wheel 无法构建</font></font></h3>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您在安装时遇到问题</font></font><code>playsound</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，可以尝试使用以下命令进行安装：</font></font></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>pip install -U wheel
+pip install -U playsound</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="pip install -U wheel
+pip install -U playsound" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您无法找到解决方案，请在不和谐中提问或创建新问题，以便社区可以帮助您。</font></font></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-donate-" class="anchor" aria-hidden="true" tabindex="-1" href="#donate-"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">捐赠🎁</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您喜欢并喜欢</font></font><code>MoneyPrinter</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，并且想要捐赠，您可以通过单击存储库右侧的按钮来进行捐赠。</font><font style="vertical-align: inherit;">❤️ 您的名字（和/或徽标）将作为支持者添加到此存储库中，以示谢意。</font></font></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-contributing-" class="anchor" aria-hidden="true" tabindex="-1" href="#contributing-"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">贡献🤝</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">暂时不接受 Pull Request。</font></font></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-star-history-" class="anchor" aria-hidden="true" tabindex="-1" href="#star-history-"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">明星历史🌟</font></font></h2>
+<p dir="auto"><a href="https://star-history.com/#FujiwaraChoki/MoneyPrinter&amp;Date" rel="nofollow"><img src="https://camo.githubusercontent.com/0a1eae2cf19e3fc16cd72dff32e3f99d9390e51d349d973a3b90b46558b0513e/68747470733a2f2f6170692e737461722d686973746f72792e636f6d2f7376673f7265706f733d46756a697761726143686f6b692f4d6f6e65795072696e74657226747970653d44617465" alt="明星历史图" data-canonical-src="https://api.star-history.com/svg?repos=FujiwaraChoki/MoneyPrinter&amp;type=Date" style="max-width: 100%;"></a></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-license-" class="anchor" aria-hidden="true" tabindex="-1" href="#license-"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">执照📝</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请参阅</font></font><a href="/FujiwaraChoki/MoneyPrinter/blob/main/LICENSE"><code>LICENSE</code></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文件以获取更多信息。</font></font></p>
+</article></div>
